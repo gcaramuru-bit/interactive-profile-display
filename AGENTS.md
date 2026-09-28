@@ -8,3 +8,6 @@
 > Commits you push to the connected branch sync back to Lovable and show up in
 > the editor, so keep the branch in a working state.
 <!-- LOVABLE:END -->
+
+- Keep the site as one editorial landing page with exactly seven content sections because the approved brief prioritizes clarity over expansion.
+- Keep all editable homepage content in data arrays near the route because results, services, links, and method pillars change independently.
