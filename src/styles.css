@@ -277,13 +277,13 @@
   .menu-button { display: grid; place-items: center; width: 42px; height: 42px; padding: 0; color: inherit; background: transparent; border: 0; }
   .mobile-nav { position: absolute; top: 64px; left: 0; right: 0; display: flex; flex-direction: column; gap: 1.5rem; padding: 2rem 1.25rem 2.5rem; background: oklch(0.14 0.016 248 / .97); border-top: 1px solid oklch(1 0 0 / .08); font-family: var(--font-display); font-size: 1.4rem; }
   .hero { min-height: auto; display: flex; flex-direction: column; }
-  .hero-content { padding: 7.5rem 1.25rem 2.5rem; }
-  .hero h1 { font-size: clamp(2.8rem,13.5vw,4.4rem); }
+  .hero-content { padding: 7rem 1.25rem 2.25rem; }
+  .hero h1 { font-size: clamp(2.55rem,11.5vw,3.8rem); }
   .hero-copy { margin-top: 1.5rem; }
   .hero-portrait { height: 42vh; min-height: 320px; order: 2; }
   .hero-portrait::after { background: linear-gradient(180deg, oklch(0.14 0.016 248) 0%, transparent 30%), linear-gradient(0deg, oklch(0.14 0.016 248 / .5), transparent 55%); }
   .scroll-cue { display: none; }
-  .section-heading h2 { font-size: clamp(2.4rem,11vw,4rem); }
+  .section-heading h2 { font-size: clamp(2.15rem,9.5vw,3.4rem); }
   .about-grid { margin-top: 3rem; grid-template-columns: 1fr; gap: 2.5rem; }
   .about-image { max-height: 520px; }
   .stats-grid { margin-top: 4rem; grid-template-columns: 1fr 1fr; gap: 2.5rem 1rem; }
@@ -296,6 +296,12 @@
   .solution { grid-template-columns: 40px 1fr; gap: 1rem; padding: 3rem 0; }
   .solution-body { grid-template-columns: 1fr; gap: 1.1rem; }
   .tag { grid-column: auto; }
+  .solution--guide .solution-body, .solution--kit .solution-body { grid-template-columns: 1fr; }
+  .solution--guide .tag, .solution--kit .tag, .solution--guide h3, .solution--kit h3, .solution--guide h4, .solution--kit h4, .solution--guide .solution-body > p, .solution--kit .solution-body > p, .solution--guide .solution-detail, .solution--kit .solution-detail, .feature-chips, .guide-flow, .guide-visual, .kit-steps, .kit-gallery, .solution--guide .text-link, .solution--kit .text-link { grid-column: 1; }
+  .guide-visual, .kit-gallery { grid-row: auto; }
+  .guide-visual { min-height: 420px; margin-top: .5rem; }
+  .kit-gallery { margin-top: .5rem; }
+  .kit-gallery figcaption { min-height: 82px; }
   .case, .case--reverse { min-height: auto; padding: 5rem 0; grid-template-columns: 1fr; gap: 3rem; }
   .case--reverse .case-context { order: 0; }
   .case-result strong { font-size: clamp(3rem,14vw,5.5rem); overflow-wrap: anywhere; }
