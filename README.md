@@ -1,14 +1,22 @@
-# Welcome to your Lovable project
+# Dynamic Feedback Site
+
+Caso tenha alguma melhoria pode fazer... sem problema fazer o site com movimento estilo sppale... 
+
+apple...
+
+foto minha  e foto de feedback... os ooutros voce so addiciona o texto
 
 This project was built with [Lovable](https://lovable.dev).
 
+**Live app**: https://interactive-profile-display.lovable.app
+
 ## Build with Lovable
 
-Open your project in the [Lovable editor](https://lovable.dev) and keep building.
+Continue developing this project in the [Lovable editor](https://lovable.dev/projects/8d4db589-a589-4e46-a0c1-8db0b08c8a59).
 
 - **Ship faster**: describe what you want to build and Lovable handles the code.
-- **Stay in sync**: connect the project to GitHub and every change made in Lovable is committed straight to your repository.
-- **Full ownership**: this code is yours. Push to your repository and your changes sync back into Lovable, ready for your next prompt.
+- **Stay in sync**: every change made in Lovable is committed straight to this repository.
+- **Full ownership**: this code is yours. Push to `main` on GitHub and your changes sync back into Lovable, ready for your next prompt.
 
 ## Development
 
@@ -20,10 +28,3 @@ cd <repository-name>
 npm i
 npm run dev
 ```
-
-## Built with
-
-- TanStack Start
-- TypeScript
-- React
-- Tailwind CSS
